@@ -47,3 +47,6 @@ See [here](http://c0d3g33k.blogspot.com/2018/02/how-i-bypassed-2-factor-authenti
 }
 ```
 21. Backup code abuse using the above methods.
+
+Reference:
+- https://youtu.be/X2WfhBYQ2fY
