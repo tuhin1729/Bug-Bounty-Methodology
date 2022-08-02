@@ -10,3 +10,4 @@ These are my checklists which I use during my bug bounty hunting.
 - [Testing 2 Factor Authentication](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/2FA.md)
 - [Captcha Bypass](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/captcha.md)
 - [Bypassing CSRF Protection](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/CSRF.md)
+- [Testing Password Reset Functionality](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/PasswordReset.md)
