@@ -11,3 +11,4 @@ These are my checklists which I use during my bug bounty hunting.
 - [Captcha Bypass](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/Captcha.md)
 - [Bypassing CSRF Protection](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/CSRF.md)
 - [Testing Password Reset Functionality](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/PasswordReset.md)
+- [Bypassing Rate Limit Protection](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/RateLimit.md)
