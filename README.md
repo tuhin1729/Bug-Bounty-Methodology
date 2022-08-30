@@ -12,3 +12,4 @@ These are my checklists which I use during my bug bounty hunting.
 - [Bypassing CSRF Protection](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/CSRF.md)
 - [Testing Password Reset Functionality](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/PasswordReset.md)
 - [Bypassing Rate Limit Protection](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/RateLimit.md)
+- [JWT Misconfiguration](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/JWT.md)
