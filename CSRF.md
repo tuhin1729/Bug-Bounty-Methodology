@@ -43,3 +43,4 @@ ii. Use flash + 307 redirect.
 
 Reference:
 - https://book.hacktricks.xyz/pentesting-web/csrf-cross-site-request-forgery
+- https://twitter.com/tuhin1729_/status/1447400377553350656
