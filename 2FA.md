@@ -50,3 +50,4 @@ See [here](http://c0d3g33k.blogspot.com/2018/02/how-i-bypassed-2-factor-authenti
 
 Reference:
 - https://youtu.be/X2WfhBYQ2fY
+- https://twitter.com/tuhin1729_/status/1414813055054086152
