@@ -23,7 +23,8 @@ openssl rsa -in jwtRS256.key -pubout -outform PEM -out jwtRS256.key.pub
 
 "kid":"hello UNION SELECT 'key';--"
 ```
-
+### Lab Enviroment:
+https://jwt-lab.herokuapp.com/challenges
 ### Automation:
 * git clone https://github.com/ticarpi/jwt_tool
 * cd jwt_tool
