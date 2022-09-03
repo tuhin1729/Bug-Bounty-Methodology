@@ -1,7 +1,7 @@
 # Captcha Bypass
 
 1. Response manipulation.
-2. Use previously used token.
+2. Use previously used captcha value.
 3. Use any token with same length(+1/-1).
 4. Remove the param value or remove the entire parameter.
 5. Change method from POST to GET(or PUT) and remove the captcha.
