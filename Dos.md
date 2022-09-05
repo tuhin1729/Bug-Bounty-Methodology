@@ -7,7 +7,13 @@
 6. Apapche HTTP Server Byte Range DoS: If the application is using Apache 1.3.x, 2.0.x<2.0.64, 2.2.X<2.2.19 then add this [header](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/payloads/apachedos.txt) to any request.
 7. Dos via Web Cache Poisoning: In case, you are able to redirect users by exploiting a web cache poisoning vulnerability, then try redirecting them to an invalid port (for example, example.com:1729). 
 8. Try null bytes (%00, %0d%0a, %0d, %0a, %09, %0C, %20) in different input fields.
-9. Abusing Referrer cookie.
+9. Abusing Referrer cookie: Application uses WAF which blocks user on using some XSS/SQLi payloads + stores referrer URL value in cookies.
+```
+1. Create https://attacker.com/page.html which will redirect to target.com.
+2. Send this URL to the victim https://attacker.com/page.html?%22%3E%3Cscript%3Ealert(1)%3C/script%3E
+3. Victim will open the URL and will be redirected to target.com but a cookie will be generated (referrer=https%3A%2F%2Fattacker.com%2Fpage.html?%22%3E%3Cscript%3Ealert(1)%3C/script%3E;)
+Now victim can't be able to access target.com as WAF will block their request because of using XSS payload in cookie.
+```
 10. Upload feature? &rarr; Upload a very large file to consume memory. If blocked, try redirection.
 11. Missing rate limit on register/contact form &rarr; Memory corruption.
 12. Permanent DoS on unregistered users: Check for account lockout. Also try 18th testcase of [Testing 2 Factor Authentication](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/2FA.md)
@@ -17,3 +23,5 @@
 Reference:
 - https://medium.com/swlh/top-25-denial-of-service-dos-bug-bounty-reports-4aaeb4e9a052
 - https://infosecwriteups.com/kill-em-with-laughter-the-billion-laughs-attack-through-image-uploads-4e9c57ca6434
+- https://www.hackerinside.me/2019/02/dos-on-waf-protected-sites-by-abusing.html
+- https://hackerone.com/reports/57356
