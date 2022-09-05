@@ -13,3 +13,7 @@
 12. Permanent DoS on unregistered users: Check for account lockout. Also try 18th testcase of [Testing 2 Factor Authentication](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/2FA.md)
 13. Send a message to victim from attacker &rarr; Delete attacker's account. Now try to open the inbox of victim.
 14. If the application is using JSON, try using ```null``` as a value of some input field.
+
+Reference:
+- https://medium.com/swlh/top-25-denial-of-service-dos-bug-bounty-reports-4aaeb4e9a052
+- https://infosecwriteups.com/kill-em-with-laughter-the-billion-laughs-attack-through-image-uploads-4e9c57ca6434
