@@ -8,6 +8,10 @@ email=victim@gmail.com%20email=attacker@gmail.com
 email=victim@gmail.com|email=attacker@gmail.com
 {"email":"victim@gmail.com","email":"attacker@gmail.com"}
 {"email":["victim@gmail.com","attacker@gmail.com"]}
+
+{'action":"reset-password".
+"email":"accA@mail.com\naccB@mail.com"
+}
 ```
 Check if you can reset victim's password using the link received in attacker's inbox.
 
