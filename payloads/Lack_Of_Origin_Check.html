@@ -1,0 +1,9 @@
+<script>
+  function listener(event) {
+    alert(JSON.stringify(event.data));
+  }
+
+  var dest = window.open("https://target.com/social-login/redirect/google");
+
+  window.addEventListener("message", listener);
+</script>
