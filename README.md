@@ -15,6 +15,7 @@ These are my checklists which I use during my bug bounty hunting.
 - [JWT Misconfiguration](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/JWT.md)
 - [Abusing Support Portal](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/AbusingSupportPortal.md)
 - [Application Level Dos](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/Dos.md)
+- [OAuth Misconfiguration](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/OAuthMisconfiguration.md)
 
 ## Contact Us
 <div align="center"><br>
