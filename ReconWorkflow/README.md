@@ -6,7 +6,7 @@ My working reconnaissance pipeline for scoped bug bounty / pentest targets - fro
  
 ![ReconFlow](./ReconWorkflow-Final.png)
  
-> **Editable source:** [`ReconWorkflow-Final.svg`](./ReconWorkflow-Final.svg) — Excalidraw export. Drop it into [excalidraw.com](https://excalidraw.com) to open and edit it.
+> **Editable Link:** https://excalidraw.com/#json=1b2cTYRjNNSAENPAcwknl,T9zHGw6DZAd-Y1q0NT2z0A
 
 ## Roadmap
  
